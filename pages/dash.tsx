@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react'
 import { Button } from "@/components/ui/button"
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
 
-export function Page() {
+const PageComponent = () => {
   const [users, setUsers] = useState([])
 
   useEffect(() => {
@@ -45,3 +45,5 @@ export function Page() {
     </div>
   )
 }
+
+export default PageComponent
