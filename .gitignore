@@ -10,7 +10,7 @@
 node_modules
 # testing
 /coverage
-
+bun.lockb
 # next.js
 /.next/
 /out/
